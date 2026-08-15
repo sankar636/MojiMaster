@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/*
+  KenoType design tokens.
+  These were referenced throughout the app (bg-bg, text-accent, font-jp, etc.)
+  but were never actually defined, so the whole app was rendering unstyled.
+  Restoring/defining them here via Tailwind v4's @theme so every utility
+  class already used in the components (and any new ones we add) works.
+*/
+@theme {
+  --color-bg: #ffffff;
+  --color-bgSub: #f4f3ec;
+  --color-text: #323437;
+  --color-sub: #646669;
+  --color-subAlt: #8b8b8b;
+  --color-accent: #aa3bff;
+  --color-correct: #16a34a;
+  --color-error: #ef4444;
+
+  --font-jp: "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif;
+  --font-ui: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --animate-blink: blink 1.1s step-end infinite;
+  --animate-fadeIn: fadeIn 0.25s ease-out both;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #16171d;
+    --color-bgSub: #1f2028;
+    --color-text: #e5e5e5;
+    --color-sub: #9ca3af;
+    --color-subAlt: #5b5d68;
+    --color-accent: #c084fc;
+    --color-correct: #4ade80;
+    --color-error: #f87171;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  margin: 0;
+}

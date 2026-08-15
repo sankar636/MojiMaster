@@ -1,0 +1,40 @@
+// Vocabulary data — Minna no Nihongo I, Lesson 6.
+// See lesson1.js for the source note that applies to every lesson file.
+
+const lesson6 = [
+  { lesson: 6, japanese: "たべます", reading: "たべます", romaji: "tabemasu", meaning: "eat" },
+  { lesson: 6, japanese: "のみます", reading: "のみます", romaji: "nomimasu", meaning: "drink" },
+  { lesson: 6, japanese: "すいます", reading: "すいます", romaji: "suimasu", meaning: "smoke (a cigarette)" },
+  { lesson: 6, japanese: "みます", reading: "みます", romaji: "mimasu", meaning: "see, look at, watch" },
+  { lesson: 6, japanese: "ききます", reading: "ききます", romaji: "kikimasu", meaning: "hear, listen" },
+  { lesson: 6, japanese: "よみます", reading: "よみます", romaji: "yomimasu", meaning: "read" },
+  { lesson: 6, japanese: "かきます", reading: "かきます", romaji: "kakimasu", meaning: "write, draw, paint" },
+  { lesson: 6, japanese: "かいます", reading: "かいます", romaji: "kaimasu", meaning: "buy" },
+  { lesson: 6, japanese: "とります", reading: "とります", romaji: "torimasu", meaning: "take (a photograph)" },
+  { lesson: 6, japanese: "します", reading: "します", romaji: "shimasu", meaning: "do" },
+  { lesson: 6, japanese: "あいます", reading: "あいます", romaji: "aimasu", meaning: "meet (a friend)" },
+  { lesson: 6, japanese: "ごはん", reading: "ごはん", romaji: "gohan", meaning: "a meal, cooked rice" },
+  { lesson: 6, japanese: "あさごはん", reading: "あさごはん", romaji: "asagohan", meaning: "breakfast" },
+  { lesson: 6, japanese: "ひるごはん", reading: "ひるごはん", romaji: "hirugohan", meaning: "lunch" },
+  { lesson: 6, japanese: "ばんごはん", reading: "ばんごはん", romaji: "bangohan", meaning: "dinner" },
+  { lesson: 6, japanese: "たまご", reading: "たまご", romaji: "tamago", meaning: "egg" },
+  { lesson: 6, japanese: "にく", reading: "にく", romaji: "niku", meaning: "meat" },
+  { lesson: 6, japanese: "さかな", reading: "さかな", romaji: "sakana", meaning: "fish" },
+  { lesson: 6, japanese: "やさい", reading: "やさい", romaji: "yasai", meaning: "vegetable" },
+  { lesson: 6, japanese: "くだもの", reading: "くだもの", romaji: "kudamono", meaning: "fruit" },
+  { lesson: 6, japanese: "みず", reading: "みず", romaji: "mizu", meaning: "water" },
+  { lesson: 6, japanese: "おちゃ", reading: "おちゃ", romaji: "ocha", meaning: "Japanese tea" },
+  { lesson: 6, japanese: "ぎゅうにゅう", reading: "ぎゅうにゅう", romaji: "gyuunyuu", meaning: "(cow's) milk" },
+  { lesson: 6, japanese: "ジュース", reading: "じゅーす", romaji: "juusu", meaning: "juice" },
+  { lesson: 6, japanese: "ビール", reading: "びーる", romaji: "biiru", meaning: "beer" },
+  { lesson: 6, japanese: "えいが", reading: "えいが", romaji: "eiga", meaning: "movie, film" },
+  { lesson: 6, japanese: "てがみ", reading: "てがみ", romaji: "tegami", meaning: "letter" },
+  { lesson: 6, japanese: "しゃしん", reading: "しゃしん", romaji: "shashin", meaning: "photograph" },
+  { lesson: 6, japanese: "みせ", reading: "みせ", romaji: "mise", meaning: "store, shop" },
+  { lesson: 6, japanese: "にわ", reading: "にわ", romaji: "niwa", meaning: "garden" },
+  { lesson: 6, japanese: "しゅくだい", reading: "しゅくだい", romaji: "shukudai", meaning: "homework" },
+  { lesson: 6, japanese: "テニス", reading: "てにす", romaji: "tenisu", meaning: "tennis" },
+  { lesson: 6, japanese: "なに", reading: "なに", romaji: "nani", meaning: "what" },
+];
+
+export default lesson6;

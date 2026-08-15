@@ -1,0 +1,40 @@
+// Vocabulary data — Minna no Nihongo I, Lesson 10.
+// See lesson1.js for the source note that applies to every lesson file.
+
+const lesson10 = [
+  { lesson: 10, japanese: "います", reading: "います", romaji: "imasu", meaning: "be, exist (animate)" },
+  { lesson: 10, japanese: "おとこのひと", reading: "おとこのひと", romaji: "otokonohito", meaning: "man" },
+  { lesson: 10, japanese: "おんなのひと", reading: "おんなのひと", romaji: "onnanohito", meaning: "woman" },
+  { lesson: 10, japanese: "おとこのこ", reading: "おとこのこ", romaji: "otokonoko", meaning: "boy" },
+  { lesson: 10, japanese: "おんなのこ", reading: "おんなのこ", romaji: "onnanoko", meaning: "girl" },
+  { lesson: 10, japanese: "いぬ", reading: "いぬ", romaji: "inu", meaning: "dog" },
+  { lesson: 10, japanese: "ねこ", reading: "ねこ", romaji: "neko", meaning: "cat" },
+  { lesson: 10, japanese: "き", reading: "き", romaji: "ki", meaning: "tree" },
+  { lesson: 10, japanese: "もの", reading: "もの", romaji: "mono", meaning: "thing, object" },
+  { lesson: 10, japanese: "フィルム", reading: "ふぃるむ", romaji: "firumu", meaning: "film" },
+  { lesson: 10, japanese: "でんち", reading: "でんち", romaji: "denchi", meaning: "battery" },
+  { lesson: 10, japanese: "はこ", reading: "はこ", romaji: "hako", meaning: "box" },
+  { lesson: 10, japanese: "れいぞうこ", reading: "れいぞうこ", romaji: "reizouko", meaning: "refrigerator" },
+  { lesson: 10, japanese: "テーブル", reading: "てーぶる", romaji: "teeburu", meaning: "table" },
+  { lesson: 10, japanese: "ベッド", reading: "べっど", romaji: "beddo", meaning: "bed" },
+  { lesson: 10, japanese: "たな", reading: "たな", romaji: "tana", meaning: "shelf" },
+  { lesson: 10, japanese: "ドア", reading: "どあ", romaji: "doa", meaning: "door" },
+  { lesson: 10, japanese: "まど", reading: "まど", romaji: "mado", meaning: "window" },
+  { lesson: 10, japanese: "ビル", reading: "びる", romaji: "biru", meaning: "building" },
+  { lesson: 10, japanese: "こうえん", reading: "こうえん", romaji: "kouen", meaning: "park" },
+  { lesson: 10, japanese: "きっさてん", reading: "きっさてん", romaji: "kissaten", meaning: "coffee shop" },
+  { lesson: 10, japanese: "ほんや", reading: "ほんや", romaji: "honya", meaning: "bookstore" },
+  { lesson: 10, japanese: "うえ", reading: "うえ", romaji: "ue", meaning: "above, on" },
+  { lesson: 10, japanese: "した", reading: "した", romaji: "shita", meaning: "under, below" },
+  { lesson: 10, japanese: "まえ", reading: "まえ", romaji: "mae", meaning: "front" },
+  { lesson: 10, japanese: "うしろ", reading: "うしろ", romaji: "ushiro", meaning: "back, behind" },
+  { lesson: 10, japanese: "みぎ", reading: "みぎ", romaji: "migi", meaning: "right" },
+  { lesson: 10, japanese: "ひだり", reading: "ひだり", romaji: "hidari", meaning: "left" },
+  { lesson: 10, japanese: "なか", reading: "なか", romaji: "naka", meaning: "inside" },
+  { lesson: 10, japanese: "そと", reading: "そと", romaji: "soto", meaning: "outside" },
+  { lesson: 10, japanese: "となり", reading: "となり", romaji: "tonari", meaning: "next to" },
+  { lesson: 10, japanese: "ちかく", reading: "ちかく", romaji: "chikaku", meaning: "near" },
+  { lesson: 10, japanese: "あいだ", reading: "あいだ", romaji: "aida", meaning: "between" },
+];
+
+export default lesson10;

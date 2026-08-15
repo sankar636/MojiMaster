@@ -1,0 +1,41 @@
+// Vocabulary data — Minna no Nihongo I, Lesson 8.
+// See lesson1.js for the source note that applies to every lesson file.
+
+const lesson8 = [
+  { lesson: 8, japanese: "ハンサム", reading: "はんさむ", romaji: "hansamu", meaning: "handsome" },
+  { lesson: 8, japanese: "きれい", reading: "きれい", romaji: "kirei", meaning: "clean, beautiful" },
+  { lesson: 8, japanese: "しずか", reading: "しずか", romaji: "shizuka", meaning: "quiet" },
+  { lesson: 8, japanese: "にぎやか", reading: "にぎやか", romaji: "nigiyaka", meaning: "lively" },
+  { lesson: 8, japanese: "ゆうめい", reading: "ゆうめい", romaji: "yuumei", meaning: "famous" },
+  { lesson: 8, japanese: "しんせつ", reading: "しんせつ", romaji: "shinsetsu", meaning: "kind" },
+  { lesson: 8, japanese: "げんき", reading: "げんき", romaji: "genki", meaning: "healthy, energetic" },
+  { lesson: 8, japanese: "ひま", reading: "ひま", romaji: "hima", meaning: "free (time)" },
+  { lesson: 8, japanese: "べんり", reading: "べんり", romaji: "benri", meaning: "convenient" },
+  { lesson: 8, japanese: "おおきい", reading: "おおきい", romaji: "ookii", meaning: "big" },
+  { lesson: 8, japanese: "ちいさい", reading: "ちいさい", romaji: "chiisai", meaning: "small" },
+  { lesson: 8, japanese: "あたらしい", reading: "あたらしい", romaji: "atarashii", meaning: "new" },
+  { lesson: 8, japanese: "ふるい", reading: "ふるい", romaji: "furui", meaning: "old" },
+  { lesson: 8, japanese: "いい", reading: "いい", romaji: "ii", meaning: "good" },
+  { lesson: 8, japanese: "わるい", reading: "わるい", romaji: "warui", meaning: "bad" },
+  { lesson: 8, japanese: "あつい", reading: "あつい", romaji: "atsui", meaning: "hot (weather/thing)" },
+  { lesson: 8, japanese: "さむい", reading: "さむい", romaji: "samui", meaning: "cold (weather)" },
+  { lesson: 8, japanese: "つめたい", reading: "つめたい", romaji: "tsumetai", meaning: "cold (touch)" },
+  { lesson: 8, japanese: "むずかしい", reading: "むずかしい", romaji: "muzukashii", meaning: "difficult" },
+  { lesson: 8, japanese: "やさしい", reading: "やさしい", romaji: "yasashii", meaning: "easy, kind" },
+  { lesson: 8, japanese: "たかい", reading: "たかい", romaji: "takai", meaning: "expensive, tall" },
+  { lesson: 8, japanese: "ひくい", reading: "ひくい", romaji: "hikui", meaning: "low" },
+  { lesson: 8, japanese: "おもしろい", reading: "おもしろい", romaji: "omoshiroi", meaning: "interesting, fun" },
+  { lesson: 8, japanese: "おいしい", reading: "おいしい", romaji: "oishii", meaning: "delicious" },
+  { lesson: 8, japanese: "いそがしい", reading: "いそがしい", romaji: "isogashii", meaning: "busy" },
+  { lesson: 8, japanese: "たのしい", reading: "たのしい", romaji: "tanoshii", meaning: "enjoyable" },
+  { lesson: 8, japanese: "しろい", reading: "しろい", romaji: "shiroi", meaning: "white" },
+  { lesson: 8, japanese: "くろい", reading: "くろい", romaji: "kuroi", meaning: "black" },
+  { lesson: 8, japanese: "あかい", reading: "あかい", romaji: "akai", meaning: "red" },
+  { lesson: 8, japanese: "あおい", reading: "あおい", romaji: "aoi", meaning: "blue" },
+  { lesson: 8, japanese: "やま", reading: "やま", romaji: "yama", meaning: "mountain" },
+  { lesson: 8, japanese: "まち", reading: "まち", romaji: "machi", meaning: "town, city" },
+  { lesson: 8, japanese: "たべもの", reading: "たべもの", romaji: "tabemono", meaning: "food" },
+  { lesson: 8, japanese: "ところ", reading: "ところ", romaji: "tokoro", meaning: "place" },
+];
+
+export default lesson8;
