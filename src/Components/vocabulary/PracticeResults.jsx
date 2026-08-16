@@ -1,7 +1,6 @@
 import { RotateCcw } from 'lucide-react';
 
 const PracticeResults = ({
-  mode,
   stats,
   fromLesson,
   toLesson,
@@ -46,7 +45,7 @@ const PracticeResults = ({
         </div>
         <div className="flex flex-col items-center">
           <span className="text-text">{stats.total}</span>
-          <span>{mode === 'vocabulary' ? 'words' : 'questions'} practiced</span>
+          <span>words practiced</span>
         </div>
       </div>
 
@@ -59,38 +58,19 @@ const PracticeResults = ({
                 key={idx}
                 className="rounded-lg bg-bgSub px-4 py-2 text-left"
               >
-                {mode === 'vocabulary' ? (
-                  <>
-                    <div className="font-jp text-lg text-text">
-                      {r.item.japanese}{' '}
-                      <span className="font-ui text-sm text-sub">
-                        → {r.item.meaning}
-                      </span>
-                    </div>
-                    <div className="font-mono text-xs mt-1">
-                      <span className="text-error">
-                        Your answer: {r.typed || '(empty)'}
-                      </span>
-                      {'  '}
-                      <span className="text-correct">
-                        Correct: {r.item.romaji}
-                      </span>
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <div className="text-sm text-text">{r.item.question}</div>
-                    <div className="font-mono text-xs mt-1">
-                      <span className="text-error">
-                        Your answer: {r.typed || '(empty)'}
-                      </span>
-                      {'  '}
-                      <span className="text-correct">
-                        Correct: {r.item.answer}
-                      </span>
-                    </div>
-                  </>
-                )}
+                <div className="font-jp text-lg text-text">
+                  {r.item.japanese}{' '}
+                  <span className="font-ui text-sm text-sub">
+                    → {r.item.meaning}
+                  </span>
+                </div>
+                <div className="font-mono text-xs mt-1">
+                  <span className="text-error">
+                    Your answer: {r.typed || '(empty)'}
+                  </span>
+                  {'  '}
+                  <span className="text-correct">Correct: {r.target}</span>
+                </div>
               </div>
             ))}
           </div>
