@@ -1,4 +1,4 @@
-import { Keyboard, BookOpen } from 'lucide-react';
+import { Keyboard, BookOpen, Gamepad2 } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const navLinkClass = ({ isActive }) =>
@@ -17,13 +17,12 @@ const Header = () => {
         <Keyboard size={22} className="text-accent" />
         <span className="text-sm md:text-lg font-semibold tracking-tight">
           Moji<span className="text-accent">Master</span>{' '}
-          <span className='text-xs sm:text-lg'>
+          <span className="text-xs sm:text-lg">
             (もじ
             <span className="text-accent"> マスタ)</span>
           </span>
         </span>
       </NavLink>
-
       <nav
         className="flex items-center gap-1"
         onClick={(e) => e.stopPropagation()}
@@ -35,6 +34,10 @@ const Header = () => {
         <NavLink to="/vocabulary" className={navLinkClass}>
           <BookOpen size={15} />
           Vocabulary
+        </NavLink>
+        <NavLink to="/vocabulary/game" className={navLinkClass}>
+          <Gamepad2 size={15} />
+          Game
         </NavLink>
       </nav>
     </div>
