@@ -1,6 +1,6 @@
 export const GAME_CONFIG = {
   maxLives: 3,
-  initialFallDuration: 20000,
+  initialFallDuration: 100000,
   minimumFallDuration: 2600,
   speedIncrease: 180,
   blastDuration: 260,
